@@ -1,0 +1,30 @@
+{
+  "name": "hello_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:www1": "cross-env NODE_ENV=development PROXY=dev TARGET=dev node ./www/server.js",
+    "dev:pro": "cross-env NODE_ENV=development PROXY=pro TARGET=pro node ./www/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gugegev5/hello_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gugegev5/hello_express/issues"
+  },
+  "homepage": "https://github.com/gugegev5/hello_express#readme",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "react-dom": "^16.13.1"
+  }
+}
